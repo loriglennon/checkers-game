@@ -1,0 +1,184 @@
+<!doctype html>
+<html class="no-js" lang="">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title>Lori's Checkers Game</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link rel="apple-touch-icon" href="apple-touch-icon.png">
+        <!-- Place favicon.ico in the root directory -->
+
+        <link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" href="css/main.css">
+        <script src="js/vendor/modernizr-2.8.3.min.js"></script>
+        <script src="js/main.js"></script>
+    </head>
+    <body>
+        
+        <p>Lori's Checker Game</p>
+
+        <div id="board">
+            <div id="squaresWrapper">
+            <!-- row 1-->
+                <div id="light1" ondrop="drop(event)" ondragover="allowDrop(event)">
+                    <img src="images/redChecker.png" id="drag1" draggable="true" ondragstart="drag(event)">
+                </div>
+                <div class="dark"></div>
+                <div id="light2" ondrop="drop(event)" ondragover="allowDrop(event)">
+                    <img src="images/redChecker.png" id="drag2" draggable="true" ondragstart="drag(event)">
+                </div>
+                <div class="dark"></div>
+                <div id="light3" ondrop="drop(event)" ondragover="allowDrop(event)">
+                    <img src="images/redChecker.png" id="drag3" draggable="true" ondragstart="drag(event)">
+                </div>
+                <div class="dark"></div>
+                <div id="light4" ondrop="drop(event)" ondragover="allowDrop(event)">
+                    <img src="images/redChecker.png" id="drag4" draggable="true" ondragstart="drag(event)">
+                </div>
+                <div class="dark"></div>
+
+
+              <!-- row 2-->
+                <div class="dark"></div>
+                <div id="light5" ondrop="drop(event)" ondragover="allowDrop(event)">
+                    <img src="images/redChecker.png" id="drag5" draggable="true" ondragstart="drag(event)">
+                </div>
+                <div class="dark"></div>
+                <div id="light6" ondrop="drop(event)" ondragover="allowDrop(event)">
+                    <img src="images/redChecker.png" id="drag6" draggable="true" ondragstart="drag(event)">
+                </div>
+                <div class="dark"></div>
+                <div id="light7" ondrop="drop(event)" ondragover="allowDrop(event)">
+                    <img src="images/redChecker.png" id="drag7" draggable="true" ondragstart="drag(event)">
+                </div>
+                <div class="dark"></div>
+                <div id="light8" ondrop="drop(event)" ondragover="allowDrop(event)">
+                    <img src="images/redChecker.png" id="drag8" draggable="true" ondragstart="drag(event)">
+                </div>
+                
+             <!-- row 3-->
+                <div id="light9" ondrop="drop(event)" ondragover="allowDrop(event)">
+                    <img src="images/redChecker.png" id="drag9" draggable="true" ondragstart="drag(event)">
+                </div>
+                <div class="dark"></div>
+                <div id="light10" ondrop="drop(event)" ondragover="allowDrop(event)">
+                    <img src="images/redChecker.png" id="drag10" draggable="true" ondragstart="drag(event)">
+                </div>
+                <div class="dark"></div>
+                <div id="light11" ondrop="drop(event)" ondragover="allowDrop(event)">
+                    <img src="images/redChecker.png" id="drag11" draggable="true" ondragstart="drag(event)">
+                </div>
+                <div class="dark"></div>
+                <div id="light12" ondrop="drop(event)" ondragover="allowDrop(event)">
+                    <img src="images/redChecker.png" id="drag12" draggable="true" ondragstart="drag(event)">
+                </div>
+                <div class="dark"></div>
+
+
+             <!-- row 4-->
+                <div class="dark"></div>
+                <div id="light13" ondrop="drop(event)" ondragover="allowDrop(event)">
+                </div>    
+                <div class="dark"></div>
+                <div id="light14" ondrop="drop(event)" ondragover="allowDrop(event)">
+                </div>
+                <div class="dark"></div>
+                <div id="light15" ondrop="drop(event)" ondragover="allowDrop(event)">
+                </div>
+                <div class="dark"></div>
+                <div id="light16" ondrop="drop(event)" ondragover="allowDrop(event)">
+                </div>
+
+
+            <!-- row 5-->
+                <div id="light17" ondrop="drop(event)" ondragover="allowDrop(event)">
+                </div>    
+                <div class="dark"></div>
+                <div id="light18" ondrop="drop(event)" ondragover="allowDrop(event)">
+                </div>
+                <div class="dark"></div>
+                <div id="light19" ondrop="drop(event)" ondragover="allowDrop(event)">
+                </div>
+                <div class="dark"></div>
+                <div id="light20" ondrop="drop(event)" ondragover="allowDrop(event)">
+                </div>
+                <div class="dark"></div>
+
+
+
+
+              <!-- row 6-->
+                <div class="dark"></div>
+                <div id="light21" ondrop="drop(event)" ondragover="allowDrop(event)">
+                    <img src="images/blackChecker.png" id="drag21" draggable="true" ondragstart="drag(event)">
+                </div>
+                <div class="dark"></div>
+                <div id="light22" ondrop="drop(event)" ondragover="allowDrop(event)">
+                    <img src="images/blackChecker.png" id="drag22" draggable="true" ondragstart="drag(event)">
+                </div>
+                <div class="dark"></div>
+                <div id="light23" ondrop="drop(event)" ondragover="allowDrop(event)">
+                    <img src="images/blackChecker.png" id="drag23" draggable="true" ondragstart="drag(event)">
+                </div>
+                <div class="dark"></div>
+                <div id="light24" ondrop="drop(event)" ondragover="allowDrop(event)">
+                    <img src="images/blackChecker.png" id="drag24" draggable="true" ondragstart="drag(event)">
+                </div>
+
+
+             <!-- row 7-->
+                <div id="light25" ondrop="drop(event)" ondragover="allowDrop(event)">
+                    <img src="images/blackChecker.png" id="drag25" draggable="true" ondragstart="drag(event)">
+                </div>
+                <div class="dark"></div>
+                <div id="light26" ondrop="drop(event)" ondragover="allowDrop(event)">
+                    <img src="images/blackChecker.png" id="drag26" draggable="true" ondragstart="drag(event)">
+                </div>
+                <div class="dark"></div>
+                <div id="light27" ondrop="drop(event)" ondragover="allowDrop(event)">
+                    <img src="images/blackChecker.png" id="drag27" draggable="true" ondragstart="drag(event)">
+                </div>
+                <div class="dark"></div>
+                <div id="light28" ondrop="drop(event)" ondragover="allowDrop(event)">
+                    <img src="images/blackChecker.png" id="drag28" draggable="true" ondragstart="drag(event)">
+                </div>
+                <div class="dark"></div>
+
+
+             <!-- row 8-->
+                <div class="dark"></div>
+                <div id="light29" ondrop="drop(event)" ondragover="allowDrop(event)">
+                    <img src="images/blackChecker.png" id="drag29" draggable="true" ondragstart="drag(event)">
+                </div>
+                <div class="dark"></div>
+                <div id="light30" ondrop="drop(event)" ondragover="allowDrop(event)">
+                    <img src="images/blackChecker.png" id="drag30" draggable="true" ondragstart="drag(event)">
+                </div>
+                <div class="dark"></div>
+                <div id="light31" ondrop="drop(event)" ondragover="allowDrop(event)">
+                    <img src="images/blackChecker.png" id="drag31" draggable="true" ondragstart="drag(event)">
+                </div>
+                <div class="dark"></div>
+                <div id="light32" ondrop="drop(event)" ondragover="allowDrop(event)">
+                    <img src="images/blackChecker.png" id="drag32" draggable="true" ondragstart="drag(event)">
+                </div> 
+
+            </div><!-- End squares holder-->
+
+        </div><!-- End wrapper-->
+
+
+
+
+
+
+
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+        <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.3.min.js"><\/script>')</script>
+        <script src="js/plugins.js"></script>
+        <script src="js/main.js"></script>
+    </body>
+</html>
